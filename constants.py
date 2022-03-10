@@ -5,4 +5,4 @@
 # This module contains constants
 
 
-TAU = 6.28
+HST = 0.13
