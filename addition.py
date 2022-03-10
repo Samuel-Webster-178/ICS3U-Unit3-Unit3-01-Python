@@ -2,8 +2,7 @@
 
 # Created by Samuel Webster
 # Created on March 2022
-# This program calculates the circumference of a circle
-#     with inputted radius
+# This program calculates the sum of two inputted numbers
 
 
 import constants
@@ -13,13 +12,14 @@ def main():
     # I calculate circumference
 
     # input
-    radius = int(input("Enter radius of the circle in mm: "))
+    first_number = int(input("Enter the first integer to add: "))
+    second_number = int(input("Enter the second integer to add: "))
 
     # process
-    circumference = constants.TAU * radius
+    sum = first_number + second_number
 
     # output
-    print("Circumference is {} mm.".format(circumference))
+    print("\n{0} + {1} = {2}".format(first_number, second_number, sum))
     print("\nDone.")
 
 
